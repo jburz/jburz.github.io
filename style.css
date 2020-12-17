@@ -1,8 +1,21 @@
-.text-color{
-    color: #F64C72
+.body-color{
+    background-color: #659DBD
 }
 
-.body-color{
-    background-color: #242582
+.btn-style{
+    background-color: #8D8741;
+    color: #FBEEC1
+}
+
+.card-border{
+    border-width: medium;
+    border-color: #8D8741;
+    border-radius: 10px;
+}
+
+.img-border{
+    border-width: thin;
+    border-color: #8D8741;
+    border-radius: 10px;
 }
 

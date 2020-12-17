@@ -8,13 +8,14 @@
     <!-- Bootstrap style sheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: #242582">
+<body class="body-color">
     <!-- NavBar -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2F2FA2">
-            <a class="navbar-brand" style="color: #F64C72">Jake Burzlaff</a>
+        <nav class="navbar navbar-expand-sm navbar-dark btn-style">
+            <a class="navbar-brand">Jake Burzlaff</a>
             <!-- collapsing navigation to dropdown list -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +28,7 @@
                         <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="./portfolio.html" style="color: #F64C72">Portfolio</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contact.html">Contact</a>
@@ -43,89 +44,91 @@
 
             <div class="row mt-3 mb-4">
                 <div class="col-sm-4 d-sm-flex justify-content-center align-items-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/EMG.png" class="img-fluid img-thumbnail rounded"
-                            style="border-color: #F64C72" alt="...">
+                    <div class="card card-border" style="width: 18rem;">
+                        <img src="./assets/EMG.png" class="img-fluid img-thumbnail img-border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Emotional Media Generator</h5>
                             <p class="card-text">Generate photos or gifs based on how you are feeling.</p>
                             <a href="https://github.com/clarissareeve/Emotional_Media_Generator" target="_blank"
-                                class="btn" style="background-color: #F64C72">Github</a>
+                                class="btn btn-sm btn-style">Github</a>
                             <a href="https://clarissareeve.github.io/Emotional_Media_Generator/" target="_blank"
-                                class="btn" style="background-color: #F64C72">Deployed Site</a>
+                                class="btn btn-sm btn-style">Deployed
+                                Site</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 d-sm-flex justify-content-center align-items-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/Invitr.png" class="img-fluid img-thumbnail border-primary rounded" alt="...">
+                    <div class="card card-border" style="width: 18rem;">
+                        <img src="./assets/Invitr.png" class="img-fluid img-thumbnail  img-border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Invitr</h5>
                             <p class="card-text">Wedding invitation app used to track guests, their contact info and
                                 food preferences.</p>
-                            <a href="https://github.com/jburz/Invitr" target="_blank" class="btn btn-primary">Github</a>
+                            <a href="https://github.com/jburz/Invitr" target="_blank"
+                                class="btn btn-sm btn-style">Github</a>
                             <a href="https://scary-cat-18885.herokuapp.com/" target="_blank"
-                                class="btn btn-primary">Deployed Site</a>
+                                class="btn btn-sm btn-style">Deployed Site</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 d-sm-flex justify-content-center align-items-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/getchaBurgers.png" class="img-fluid img-thumbnail border-primary rounded"
-                            alt="...">
+                    <div class="card card-border" style="width: 18rem;">
+                        <img src="./assets/getchaBurgers.png" class="img-fluid img-thumbnail img-border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Getcha Burgers</h5>
                             <p class="card-text">Add burgers you would like to eat. Once eaten, displays in eaten list.
                             </p>
                             <a href="https://github.com/jburz/burger-tracker" target="_blank"
-                                class="btn btn-primary">Github</a>
+                                class="btn btn-sm btn-style">Github</a>
                             <a href="https://nameless-reef-29910.herokuapp.com/" target="_blank"
-                                class="btn btn-primary">Deployed Site</a>
+                                class="btn btn-sm btn-style">Deployed Site</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row mb-4">
+            <div class=" row mb-4">
                 <div class="col-sm-4 d-sm-flex justify-content-center align-items-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/readmeSample.png" class="img-fluid img-thumbnail border-primary rounded"
-                            alt="...">
+                    <div class="card card-border" style="width: 18rem;">
+                        <img src="./assets/readmeSample.png" class="img-fluid img-thumbnail img-border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Readme Generator</h5>
-                            <p class="card-text">CLI app that will prompt questions and generate a good quality readme
+                            <p class="card-text">CLI app that will prompt questions and generate a good
+                                quality readme
                                 based on the responses.</p>
                             <a href="https://github.com/jburz/readme-generator" target="_blank"
-                                class="btn btn-primary">Github</a>
-                            <a href="" target="_blank" class="btn btn-primary">Deployed Site</a>
+                                class="btn btn-sm btn-style">Github</a>
+                            <a href="" target="_blank" class="btn btn-sm btn-style">Deployed
+                                Site</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 d-sm-flex justify-content-center align-items-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/fitnessTracker.png" class="img-fluid img-thumbnail border-primary rounded"
-                            alt="...">
+                    <div class="card card-border" style="width: 18rem;">
+                        <img src="./assets/fitnessTracker.png" class="img-fluid img-thumbnail img-border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Fitness Tracker</h5>
-                            <p class="card-text">A workout app to track cardio and resistance based workout routines.
+                            <p class="card-text">A workout app to track cardio and resistance based
+                                workout routines.
                             </p>
                             <a href="https://github.com/jburz/track-my-workouts" target="_blank"
-                                class="btn btn-primary">Github</a>
+                                class="btn btn-sm btn-style">Github</a>
                             <a href="https://salty-headland-79788.herokuapp.com/" target="_blank"
-                                class="btn btn-primary">Deployed Site</a>
+                                class="btn btn-sm btn-style">Deployed Site</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 d-sm-flex justify-content-center align-items-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/employeeDirectory.gif" class="img-fluid img-thumbnail border-primary rounded"
-                            alt="...">
+                    <div class="card card-border" style="width: 18rem;">
+                        <img src="./assets/employeeDirectory.gif" class="img-fluid img-thumbnail img-border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Employee Directory</h5>
-                            <p class="card-text">CLI app to track employees, managers departments and salaries.</p>
+                            <p class="card-text">CLI app to track employees, managers departments and
+                                salaries.</p>
                             <a href="https://github.com/jburz/employee-directory" target="_blank"
-                                class="btn btn-primary">Github</a>
-                            <a href="" target="_blank" class="btn btn-primary">Deployed Site</a>
+                                class="btn btn-sm btn-style">Github</a>
+                            <a href="" target="_blank" class="btn btn-sm btn-style">Deployed
+                                Site</a>
                         </div>
                     </div>
                 </div>
