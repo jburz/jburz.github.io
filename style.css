@@ -3,19 +3,19 @@
 }
 
 .btn-style{
-    background-color: #8D8741;
-    color: #FBEEC1
+    background-color: #387a47;
+    color: #fcf9f9
 }
 
 .card-border{
     border-width: medium;
-    border-color: #8D8741;
+    border-color: #387a47;
     border-radius: 10px;
 }
 
 .img-border{
     border-width: thin;
-    border-color: #8D8741;
+    border-color: #387a47;
     border-radius: 10px;
 }
 
