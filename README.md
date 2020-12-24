@@ -5,6 +5,8 @@ This is a website dedicated to my work as a developer.  In it you will find info
 Link to my [Portfolio](https://jburz.github.io)
 
 ![Portfolio homepage](./assets/homepage.png)
+![Portfolio page](./assets/portfolio.png)
+![Contact page](./assets/contact.png)
 
 ## Languages / Frameworks
  - HTML
